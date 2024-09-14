@@ -17,3 +17,4 @@ function toggleMenu() {
   }
 }
 
+//end global js

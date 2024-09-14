@@ -19,7 +19,7 @@ body {
     position: sticky;
     top: 0;
     z-index: 1000; /* Ensure it's above other content */
-    width: 100%
+    width: 100%;
 }
 
 #topnavbar img {
@@ -67,9 +67,6 @@ body {
     flex-grow: 1;
     text-align: center;
     align-content: center;
-    border-bottom: 4px solid white;
-    box-sizing: border-box;
-    background-color: var(--hover-blue);
 }
 
 #topnavbar .icon {
@@ -117,5 +114,24 @@ body {
     .topnav.responsive {
         flex-direction: column !important;
     }
+    
+    .topnav.responsive .selected-nav-item {
+        border-bottom: 4px solid white !important;
+        box-sizing: border-box;
+        background-color: var(--hover-blue) !important;
+    }
 
+
+}
+
+/*End global css */
+
+#introdiv {
+    display: flex;
+    margin-right: 10%;
+}
+
+#introdiv img {
+    width: 50vw;
+    height: 25 * 1.17264466762vw;
 }
