@@ -67,6 +67,9 @@ body {
     flex-grow: 1;
     text-align: center;
     align-content: center;
+    border-bottom: 4px solid white;
+    box-sizing: border-box;
+    background-color: var(--hover-blue);
 }
 
 #topnavbar .icon {
@@ -101,6 +104,16 @@ body {
       position: absolute;
       right: 0;
       top: 0;
+    }
+
+    .topnav .selected-nav-item {
+        border-bottom: none;
+        box-sizing: border-box;
+        background-color: var(--blue);
+    }
+
+    .topnav .selected-nav-item:hover {
+        background-color: var(--hover-blue);
     }
 
     .topnav.responsive a {
