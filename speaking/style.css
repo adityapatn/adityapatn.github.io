@@ -12,7 +12,7 @@ body {
     background-color: rgb(173, 208, 237);
 }
 
-p {
+p, li {
     font-size: 1.5em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -24,6 +24,11 @@ h1 {
 
 a {
     color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li {
+    line-height: 1.5;
 }
 
 #topnavbar {
@@ -103,7 +108,7 @@ a {
 
 @media screen and (max-width: 900px) {
 
-    p {
+    p, li {
         font-size: 1em;
     }
 
@@ -168,45 +173,7 @@ a {
 
 /*End global css */
 
-@media screen and (max-width: 900px) {
-    #introdiv {
-        flex-direction: column;
-    }
-
-    #introdiv img {
-        width: 96vw !important;
-    }
-
-    #introdiv div {
-        width: 96vw !important;
-        margin-right: 2vw;
-        max-width: 600px;
-    }
-}
-
-#introdiv {
-    display: flex;
-    margin-right: 2vw;
-    margin-left: 2vw;
-    margin-top: 2vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#introdiv img {
-    width: 50vw;
-    max-width: 600px;
-    height: auto;
-
-}
-
-#introdiv div {
+#speakingdiv {
+    margin-right: min(50px, 2vw);
     margin-left: min(50px, 2vw);
-    width: 44vw;
-}
-
-#introdiv a {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 0.875em;
 }

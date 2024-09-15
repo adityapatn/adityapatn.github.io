@@ -116,7 +116,7 @@ li {
         font-size: 1.5em;
     }
 
-    #topnavbar a:not(.selected-nav-item) {
+    #topnavbar a:not(.selected-nav-item,#iconlink,.icon) {
         display: none;
     }
 
