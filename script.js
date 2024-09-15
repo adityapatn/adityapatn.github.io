@@ -1,6 +1,6 @@
 var body = document.getElementById("body")
 var width = body.offsetWidth;
-console.log("The width of the viewport is " + width + " pixels.");
+//console.log("The width of the viewport is " + width + " pixels.");
 
 var navbar = document.getElementById("navbaritems");
 var navitem = document.getElementsByClassName("nav-item");
