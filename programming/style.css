@@ -168,45 +168,7 @@ a {
 
 /*End global css */
 
-@media screen and (max-width: 900px) {
-    #introdiv {
-        flex-direction: column;
-    }
-
-    #introdiv img {
-        width: 96vw !important;
-    }
-
-    #introdiv div {
-        width: 96vw !important;
-        margin-right: 2vw;
-        max-width: 600px;
-    }
-}
-
-#introdiv {
-    display: flex;
-    margin-right: 2vw;
-    margin-left: 2vw;
-    margin-top: 2vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#introdiv img {
-    width: 50vw;
-    max-width: 600px;
-    height: auto;
-
-}
-
-#introdiv div {
+#progdiv {
+    margin-right: min(50px, 2vw);
     margin-left: min(50px, 2vw);
-    width: 44vw;
-}
-
-#introdiv a {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 0.875em;
 }
