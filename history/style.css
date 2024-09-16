@@ -177,3 +177,9 @@ li {
     margin-right: min(50px, 2vw);
     margin-left: min(50px, 2vw);
 }
+
+#historydiv iframe {
+    width: 96vw;
+    height: min(100%, 54vw);
+    object-fit:contain;
+}
