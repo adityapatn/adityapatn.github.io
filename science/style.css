@@ -33,7 +33,7 @@ li {
 
 #topnavbar {
     background-color: var(--blue);
-    height: auto;
+    height: 50px;
     display: flex;
     position: sticky;
     top: 0;
@@ -49,7 +49,7 @@ li {
     margin-left: 3px;
     margin-right: 3px;
     display: flex;
-    margin-top: 3px;
+    margin-top: 5px;
 }
 
 #navbaritems {
